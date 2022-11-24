@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    backdrop-filter: blur(99px);
+    border: solid 0.5px;
+}
+
+nav > h3{
+    color: rgba(218, 28, 199, 0.534);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body{
+    background-image: url('src/gambar3.png');
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 100%;
+    gap: .6rem;
+    font-family: 'courgette';
+    position: relative;
+    top: 2rem;
+}
+section > img{
+    width: 3.8rem;
+    margin-bottom: 0.5rem;
+    background-color: #fff;
+    border-radius: 100%;
+    border: solid 0.5px;
+}
+
+.descripsi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background: linear-gradient(to bottom right, #40f67d5d 0%, #43c7f35d 100%);
+    border-radius: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section > div{
+    display: flex;
+    justify-content: left;
+    gap: .3rem;
+    align-items: center;
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+section > .watsap:hover, .fesbuk:hover, .tiktok:hover {
+    cursor: pointer;
+    background: linear-gradient(to bottom right, #66ff99ae 0%, #33ccff82 100%);
+
+}
+
+section > div > a {
+    color: black;
+    transition: 300ms ease-in-out;
+}
+
+section > .watsap:hover > a{
+    color: rgb(11, 122, 22);
+}
+
+section > .fesbuk:hover > a{
+    color: rgb(13, 112, 151);
+}
+
+section > .tiktok:hover > a{
+    color: rgb(77, 31, 36);
+}
+
+.isi{
+    width: 20rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    background-color: #00ffff22;
+    border: 1px solid;
+}
+
+section > div > img {
+    width: 3rem;
+}
+
+/* .watsap{
+    padding: 5px;
+    background-color: aqua;
+}
+
+.watsap a{
+    text-decoration: none;
+    color: rgb(43, 158, 120);
+}
+
+.fesbuk a{
+    text-decoration: none;
+    color: rgb(27, 91, 195);
+}
+
+.tiktok a{
+    text-decoration: none;
+    color: rgb(107, 12, 12);
+} */
+
